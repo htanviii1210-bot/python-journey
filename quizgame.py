@@ -5,6 +5,8 @@ quiz = {
     "Capital of France?": "Paris",
     "2+2?": "4",
     "Largest planet?": "Jupiter",
+    "5+10?":"15",
+    "Longest River?":"Nile",
 }
 print("Welcome to the quiz Game:")
 for i in quiz:
@@ -20,4 +22,4 @@ for i in quiz:
 
 print(f"Your Final Score is {score}")
 percentage=(score/len(quiz))*100
-print(f"Your percentage is {percentage}%")
+print(f"Your percentage is {percentage:.2f}%")
