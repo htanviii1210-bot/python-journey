@@ -123,6 +123,7 @@ Concepts Learned:
 * Program flow control
 
 ---
+###6.6. Rock Paper Scissors
 
 ## Python Concepts Learned So Far
 
