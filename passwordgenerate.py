@@ -20,7 +20,7 @@ numlet=int(input("Enter the number of letters:"))
 numnum=int(input("Enter the number of digits:"))
 numsym=int(input("Enter the number of symbols:"))
 
-#Easy Level
+
 pw=[]
 for char in range(numlet):
     pw.append(random.choice(letters))
