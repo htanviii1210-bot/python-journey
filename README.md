@@ -1,12 +1,18 @@
 # Python Journey 🚀
 
-My journey of learning Python from scratch as a first-year B.Tech CSE student.
+My journey of learning Python from scratch as a first-year B.Tech Computer Science student.
 
-## Goals
+---
+
+## About Me
+
+I'm a first-year B.Tech CSE student learning Python by building projects and solving problems.
+
+My goals are to:
 
 * Learn Python fundamentals
 * Improve problem-solving skills
-* Build projects consistently
+* Build a strong programming foundation
 * Prepare for software engineering internships
 * Explore AI/ML in the future
 
@@ -22,7 +28,7 @@ Features:
 * Expense tracking
 * Total expense calculation
 * Average expense calculation
-* Highest expense tracking
+* Highest expense calculation
 * Budget remaining/exceeded calculation
 
 Concepts Learned:
@@ -50,8 +56,8 @@ Concepts Learned:
 * random module
 * Loops
 * Boolean flags
+* break statement
 * Game logic
-* break statements
 
 ---
 
@@ -59,7 +65,7 @@ Concepts Learned:
 
 Features:
 
-* Multiple-choice style questions
+* Multiple questions and answers
 * Score tracking
 * Percentage calculation
 * Correct answer feedback
@@ -78,11 +84,11 @@ Concepts Learned:
 
 Features:
 
-* Custom number of letters
-* Custom number of digits
-* Custom number of symbols
+* User-defined number of letters
+* User-defined number of numbers
+* User-defined number of symbols
 * Random password generation
-* Password character shuffling
+* Password shuffling
 
 Concepts Learned:
 
@@ -92,6 +98,29 @@ Concepts Learned:
 * random.shuffle()
 * append()
 * join()
+
+---
+
+### 5. To-Do List Manager ✅
+
+Features:
+
+* Add tasks
+* View tasks
+* Delete tasks
+* Numbered task display
+* Input validation
+* Menu-driven interface
+
+Concepts Learned:
+
+* Lists
+* append()
+* pop()
+* enumerate()
+* while loops
+* Input validation
+* Program flow control
 
 ---
 
@@ -107,8 +136,12 @@ Concepts Learned:
 * Strings
 * Functions (Basics)
 * Random Module
-* List Operations
+* append()
+* pop()
+* enumerate()
 * String Manipulation
+* Input Validation
+* Menu-Driven Programs
 
 ---
 
@@ -125,20 +158,23 @@ Concepts Learned:
 
 ## Current Progress
 
-* Completed 4 Python projects
-* Learning by building projects
-* Using VS Code for development
-* Tracking progress with GitHub
+✅ Completed 5 Python projects
+
+✅ Learning through project-based development
+
+✅ Using VS Code as primary IDE
+
+✅ Tracking progress with GitHub
 
 ---
 
 ## Upcoming Projects
 
-* To-Do List Manager
-* Calculator App
 * Contact Book
+* Calculator App
 * Rock Paper Scissors
 * File Organizer
+* Student Management System
 
 ---
 
@@ -149,7 +185,20 @@ budget.py
 NumberGuess.py
 quizgame.py
 passwordgenerate.py
+todo.py
 README.md
 ```
 
-Learning one project at a time and improving every day.
+---
+
+## Learning Philosophy
+
+Instead of only watching tutorials, I learn by building projects.
+
+Each project introduces new concepts and helps reinforce previous lessons through practical implementation.
+
+The goal is consistent progress and becoming a better programmer one project at a time.
+
+---
+
+⭐ This repository documents my Python learning journey and growth as a developer.
