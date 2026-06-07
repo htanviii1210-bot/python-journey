@@ -3,15 +3,14 @@ def add(n1,n2):
     return result
 def sub(n1,n2):
     result = n1-n2
-    return result
-    
+    return result 
 def mul(n1,n2):
     result = n1*n2
-    return result
-    
+    return result 
 def div(n1,n2):
-    if n1==0 or n2==0:
-        result = 0
+    if n2==0:
+        print("Error!")
+        exit()
     else:
         result = n1/n2
     
@@ -28,20 +27,20 @@ ch = input("Enter the number of the operation:")
 if ch =="1":
     num1 = int(input("Enter the first no.:"))
     num2 = int(input("Enter the second no.:"))
-    add(num1,num2)
+    print(add(num1,num2))
 elif ch =="2":
     num1 = int(input("Enter the first no.:"))
     num2 = int(input("Enter the second no.:"))
-    sub(num1,num2)
+    print(sub(num1,num2))
 elif ch=="3":
     num1 = int(input("Enter the first no.:"))
     num2 = int(input("Enter the second no.:"))
-    mul(num1,num2)
+    print(mul(num1,num2))
 elif ch=="4":
     num1 = int(input("Enter the first no.:"))
     num2 = int(input("Enter the second no.:"))
-    div(num1,num2)
+    print(div(num1,num2))
 elif ch=="5":
-    exit
+    exit()
 else:
     print("Invalid Input")
