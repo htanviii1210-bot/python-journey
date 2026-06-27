@@ -1,7 +1,13 @@
 import requests
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+API_KEY = os.getenv("API_KEY")
 print("====== WEATHER APP ======")
 print("Welcome To The Weather App!")
-API_KEY = input("Enter API key: ")
+
 while True:
     print("\n1.Check Weather \n2.Exit")
     ch = int(input("Enter ur choice:"))
