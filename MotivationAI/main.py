@@ -1,10 +1,12 @@
 from groq import Groq
 from dotenv import load_dotenv
-import os 
+import os
+
 
 load_dotenv()
 client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 print("====== AI Motivation Coach ======")
+
 
 while True:
     print("1. Talk to AI")
@@ -35,4 +37,3 @@ while True:
             print("Error:", e)
     else:
         print("Invalid Input:(")
-        
